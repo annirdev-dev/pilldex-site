@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Privacy Policy · Pilldex</title>
-<meta name="description" content="How Pilldex handles your information: your medicines stay on your phone, with no account, ads or tracking.">
+<meta name="description" content="How Pilldex handles your information: no account needed, optional backup with Sign in with Apple, and no ads or tracking.">
 <link rel="stylesheet" href="assets/styles.css">
 <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
 </head>
@@ -33,11 +33,11 @@
 <div class="summary">
   <h2>The short version</h2>
   <ul>
-    <li><strong>Your medicines stay on your phone.</strong> What you add to Pilldex (people, medicines, doses, counts, identified pills) is stored only on your device. We can’t see it.</li>
-    <li><strong>No account.</strong> You never sign up or log in.</li>
-    <li><strong>No ads, no analytics, no tracking.</strong> We don’t sell or share your information.</li>
-    <li><strong>Photos are read on your phone.</strong> Pictures you take to identify or count pills are not uploaded.</li>
-    <li><strong>One thing leaves your phone:</strong> when the app shows an official pill photo, it downloads it from our image storage, which sees a normal web request (see below).</li>
+    <li><strong>No account needed.</strong> As a guest, everything you add to Pilldex stays on your phone.</li>
+    <li><strong>Optional account.</strong> If you sign in with Apple, your people, medicines, doses and counts are saved in your Pilldex account so you can restore them on a new phone and share them with people you invite.</li>
+    <li><strong>No ads, no analytics, no tracking.</strong> We never sell your information or use it for advertising.</li>
+    <li><strong>Photos are read on your phone.</strong> Pictures you take to identify or count pills are never uploaded.</li>
+    <li><strong>Delete it any time.</strong> Me › Account › Delete account removes your account and what it stores.</li>
   </ul>
 </div>
 
@@ -45,8 +45,8 @@
 <p>Pilldex (“the app”) is made by Annir Dev (“we”, “us”). The app is for users in the United States.
   Questions or requests: <a href="mailto:annirdev@gmail.com">annirdev@gmail.com</a>.</p>
 
-<h2>Information that stays on your phone</h2>
-<p>The app keeps the following in its private storage on your device. It is not sent to us or to anyone else:</p>
+<h2>Information on your phone</h2>
+<p>The app keeps the following in its private storage on your device. As a guest, it is not sent to us or to anyone else:</p>
 <ul>
   <li>Your first name, if you enter one, and the names of family members you add.</li>
   <li>Medicines: name, strength, pills per dose, times and days, start and end dates, pills left, and how the pill looks.</li>
@@ -56,6 +56,36 @@
 <p>Pill searches run on a database built into the app, so the imprints, colors and shapes you type are not sent anywhere.</p>
 <p>Like other app data, this information is included in your iPhone’s iCloud or computer backups if you use them.
   Those backups are controlled by you and Apple.</p>
+
+<h2>If you sign in (optional)</h2>
+<p>Signing in is optional, with Sign in with Apple only. The app explains what is stored and asks you to agree before you sign in.</p>
+<h3>What we receive from Apple</h3>
+<p>An account identifier, and the name and email address you choose to share. With Apple’s “Hide My Email”, we only
+  receive a private relay address. We don’t receive your Apple Account password.</p>
+<h3>What your account stores</h3>
+<ul>
+  <li>Your first name and who you look after (just you, family, or people you care for).</li>
+  <li>The names of the people you add.</li>
+  <li>Medicines: name, strength, pills per dose, times and days, start and end dates, pills left, and how the pill looks
+    (including the official pill it was matched to).</li>
+  <li>Your dose log (taken or skipped, and when) and your pill counts.</li>
+</ul>
+<p>Photos you take, the list of pills you looked up, and your settings are not stored in your account.</p>
+<h3>Why</h3>
+<p>To keep a copy you can restore on a new phone, to keep your phones in sync, and, if you choose, to share it with
+  people you invite. We don’t use it for anything else.</p>
+<h3>Where and who can see it</h3>
+<p>Your account and its data are stored with Google Firebase (Firebase Authentication and Cloud Firestore, Google LLC)
+  on servers in the United States. Data is encrypted in transit and at rest. Access rules let only you, and people
+  you invite to share with you, read or change it. We don’t look at it, except when you ask us to fix a problem with your
+  account or when the law requires it.</p>
+<h3>Sharing with people you invite</h3>
+<p>With Pilldex Family you can invite family members or another carer. Everyone you invite can see and change the shared
+  people, medicines and doses. You can remove someone, and anyone can leave, at any time.</p>
+<h3>How long we keep it</h3>
+<p>Until you delete your account. Signing out keeps your account so you can sign in again; deleting the app does not delete
+  your account. When you delete your account in the app (Me › Account › Delete account), we delete it and the data it
+  stores. If you shared it with others, they lose access to it; anything already on their phones stays there.</p>
 
 <h2>Camera and photos</h2>
 <p>When you scan or count pills, the app uses your camera or a photo you pick. The photo is analyzed on your phone
@@ -68,7 +98,7 @@
   name and, for family members, the person’s name (for example “Mom: Lisinopril”). Depending on your settings, it can
   appear on your lock screen. To hide the text, go to Settings › Notifications › Pilldex › Show Previews.</p>
 
-<h2>What leaves your phone</h2>
+<h2>Other things that leave your phone</h2>
 <h3>Official pill photos</h3>
 <p>Official pill photos are stored with our hosting provider Firebase Hosting, a service of Google (Google LLC, United
   States; photos are delivered from Google’s servers worldwide). When the app shows one, your phone downloads it like
@@ -99,41 +129,47 @@
 
 <h2>Health information and HIPAA</h2>
 <p>Pilldex is a consumer app. We are not a health care provider, health plan or business associate, so HIPAA does not
-  apply to the app. That is one reason the app keeps your medicine information on your phone.
+  apply to the app. Your medicine information is still sensitive to us: it stays on your phone unless you sign in, and
+  we never sell it or use it for advertising.
   See our <a href="health-data.html">Consumer Health Data Privacy Policy</a> for what U.S. state health-data laws require.</p>
 
 <h2>Children</h2>
 <p>The app is not directed to children under 13, and we don’t knowingly collect personal information from children.
-  Parents can add a child’s medicines; that information stays on the parent’s phone. If you believe a child sent us
+  Parents can add a child’s medicines; that information stays on the parent’s phone, or in the parent’s account if
+  they sign in. If you believe a child sent us
   personal information, email us and we will delete it.</p>
 
 <h2>Your choices and deleting your data</h2>
 <ul>
   <li>Delete a medicine or a family member in the app at any time.</li>
-  <li>Delete all app data by deleting the app. If you use backups, older backups can still contain it until they are replaced.</li>
+  <li>Delete all data on your phone by deleting the app. If you use backups, older backups can still contain it until they are replaced.</li>
+  <li>If you signed in: delete your account and the data it stores in Me › Account › Delete account, or email us.</li>
   <li>Turn off reminders, camera or photo access in iOS Settings.</li>
   <li>Cancel a subscription in Settings › Apple Account › Subscriptions.</li>
 </ul>
 
 <h2>Security</h2>
 <p>The app’s data sits in its private area on your phone, where iOS keeps other apps out. When your iPhone is locked with
-  a passcode, iOS encrypts it. Please use a passcode, especially if you store family members’ medicines.</p>
+  a passcode, iOS encrypts it. Please use a passcode, especially if you store family members’ medicines. Account data is
+  protected by Sign in with Apple and by access rules that only let you and the people you invite reach it.</p>
 
 <h2>Your privacy rights in the U.S.</h2>
 <p>Residents of California and other states with privacy laws have rights such as knowing what personal information
-  a business holds, getting a copy, correcting it and deleting it. Because we hold almost nothing about you (at most the
-  short-lived technical logs above and emails you send us), most requests can be answered quickly. You can still make a
-  request at <a href="mailto:annirdev@gmail.com">annirdev@gmail.com</a>, or through an authorized agent. We answer within 45 days, may need to confirm
+  a business holds, getting a copy, correcting it and deleting it. As a guest we hold almost nothing about you (at most
+  the short-lived technical logs above and emails you send us). If you signed in, you can delete your account in the app
+  at any time, and you can ask us for a copy of what it stores. Make a request at <a href="mailto:annirdev@gmail.com">annirdev@gmail.com</a>, or through an authorized agent. We answer within 45 days, may need to confirm
   your request is genuine, and won’t treat you differently for using your rights. We don’t sell or share personal
   information as defined by the California Consumer Privacy Act, and we don’t use sensitive personal information for any
   purpose other than running the app.</p>
 
 <h2>If you are in the EU or UK</h2>
 <p>Annir Dev is based in the European Union, so the EU General Data Protection Regulation (GDPR) applies to the
-  little personal data we handle. We are the controller of the technical photo-request logs and of emails you send us.
-  We process the logs because we have a legitimate interest in delivering photos securely (Art. 6(1)(f) GDPR) and
-  emails to answer you (Art. 6(1)(b) and (f)). Google processes the logs on our behalf under the Firebase Data Processing and
-  Security Terms, which include the EU Standard Contractual Clauses. You can ask for access, correction,
+  personal data we handle. We are the controller of your account data, the technical photo-request logs and emails
+  you send us. We process account data to provide the account you asked for (Art. 6(1)(b) GDPR) and, because medicine
+  information is health data, with your explicit consent given when you sign in (Art. 9(2)(a)); you can withdraw it by
+  deleting your account. We process the logs because we have a legitimate interest in delivering photos securely
+  (Art. 6(1)(f)) and emails to answer you (Art. 6(1)(b) and (f)). Google processes this data on our behalf under the
+  Firebase Data Processing and Security Terms, which include the EU Standard Contractual Clauses. You can ask for access, correction,
   deletion, restriction or a copy of your data, object to processing, and complain to a data protection authority.</p>
 
 <h2>Changes to this policy</h2>
